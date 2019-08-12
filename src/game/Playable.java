@@ -1,0 +1,23 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package game;
+
+/**
+ *
+ * @author CltControl
+ */
+public interface Playable {
+    boolean increaseLifes();
+    void displayPlayer();
+    void passLevel();
+    void catchFlies();
+    void loadPredators();
+    void loadInsects();
+    void setLocationPlayer();
+    void setArrows();
+    void collision();
+    
+}
